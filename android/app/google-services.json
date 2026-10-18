@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530152096547",
+    "project_id": "smart-gebere-d230e",
+    "storage_bucket": "smart-gebere-d230e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530152096547:android:1a242e0c0008b4b6008296",
+        "android_client_info": {
+          "package_name": "com.example.smart_gebere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyd2QwMVw-wG1JfXQeqqrjb2-Wzu6-oIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
