@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:smart_gebere/Home/Home.dart';
-import 'package:smart_gebere/features/chamoth/presentation/pages/splash_welcome_page.dart';
+import 'package:smart_gebere/splash/splash_screen.dart';
 
 class UserModel {
   UserModel({required this.uid, this.email, this.displayName});
@@ -70,7 +70,7 @@ class AuthSessionGate extends StatelessWidget {
         if (snapshot.hasData) {
           return (dashboardBuilder ?? (_) => const Home_Screen())(context);
         }
-        return (signedOutBuilder ?? (_) => const SplashWelcomePage())(context);
+        return (signedOutBuilder ?? (_) => const SplashScreen())(context);
       },
     );
   }

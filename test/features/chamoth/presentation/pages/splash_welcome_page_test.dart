@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
-import 'package:smart_gebere/auth/login/login.dart';
 import 'package:smart_gebere/auth/signup/sign_up.dart';
-import 'package:smart_gebere/features/chamoth/presentation/pages/splash_welcome_page.dart';
+import 'package:smart_gebere/auth/login/login.dart';
+import 'package:smart_gebere/splash/splash_screen.dart';
 import 'package:smart_gebere/l10n/app_localizations.dart';
 
 void main() {
@@ -32,7 +32,7 @@ void main() {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      home: SplashWelcomePage(
+      home: SplashScreen(
         onGetStarted: onGetStarted,
         onLogIn: onLogIn,
       ),
